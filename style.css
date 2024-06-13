@@ -92,13 +92,14 @@ footer {
     padding: 10px 0;
     text-align: center;
     box-shadow: none;
-    height: 60px; /* Устанавливаем высоту подвала */
+    height: 50px; /* Сделали футер меньше */
     display: flex;
-    align-items: center; /* Выравниваем кнопки по вертикали */
+    align-items: center;
+    justify-content: space-around; /* Выровняли кнопки по горизонтали */
 }
 
 .footer-buttons {
-    display: flex;
-    justify-content: space-around;
-    width: 100%; /* Занимаем всю ширину подвала */
+    display: flex; 
+    width: 100%;
+    justify-content: space-around; /* Равномерно распределяем кнопки */
 }

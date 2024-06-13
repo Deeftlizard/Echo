@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background: linear-gradient(to top left, #007bff, #0194f7, #57c2ff); /* Светлый синий градиент */
+    background: linear-gradient(to right, #007bff, #0194f7, #57c2ff); /* Светлый синий градиент */
     color: #fff;
     position: relative;
     overflow-y: auto; 
@@ -9,7 +9,7 @@ body {
 }
 
 .hero {
-    background: linear-gradient(to top left, #007bff, #0194f7, #57c2ff);
+    background: linear-gradient(to right, #007bff, #0194f7, #57c2ff);
     color: #fff;
     padding: 20px;
     text-align: center; /* Выравнивание по центру */

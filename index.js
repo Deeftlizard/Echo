@@ -5,6 +5,19 @@ function Buttons(name) {
 
     this.createButton = function() {
         $(this.name).css("color", "#2196F3");
+
+        if(name == "#rof"){
+            $("#tas").css("color", "#ffffff");
+            $("#re").css("color", "#ffffff");
+        }
+        else if(name == "#tas"){
+            $("#rof").css("color", "#ffffff");
+            $("#re").css("color", "#ffffff");
+        }
+        else if(name == "#re"){
+            $("#tas").css("color", "#ffffff");
+            $("#rof").css("color", "#ffffff");
+        }
     }
 }
 

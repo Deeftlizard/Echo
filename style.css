@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right,#1b1f1f, #2c2e31, #3d3e41);
+    color: #fff;
+    position: relative;
+    overflow-y: auto; 
+    padding-top: 50px; 
+}
+
+.hero {
+    background: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Выравнивание по центру */
+}
+
+.logo {
+    width: 200px; /* Размер логотипа */
+    margin-bottom: 20px; /* Отступ от логотипа */
+}
+
+.balance-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.balance-amount {
+    font-size: 2em; 
+    font-weight: bold;
+    color: #fff;
+}
+
+.farm-button {
+    color: #2196F3;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f2225;
+    padding: 15px 0; /* Уменьшенный отступ */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    color: #fff;
+}
+
+.footer-button {
+    background-color: transparent;
+    color: #fff; /* Уменьшенные отступы для кнопок */
+    border-radius: 5px;
+    border: none;
+    font-size: 12px; /* Уменьшенный размер шрифта */
+    font-weight: bold;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+.footer-buttons {
+    display: flex; 
+    width: 100%;
+ /* Равномерно распределяем кнопки */
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    background: transparent;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.farm-button:hover {
+    background-color: #55b2ff;
+    color: #fff;
+}
+
+#prof {
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #121313;
+    width: 60px;
+    height: 60px;
+    transition: background-color 0.4s ease;
+}
+#prof:hover {
+    background-color: #000000; /* Цвет при наведении (темнее) */
+}
+
+#ref {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #121313;
+    width: 60px;
+    height: 60px;
+    transition: background-color 0.4s ease;
+}
+#ref:hover {
+    background-color: #000000; /* Цвет при наведении (темнее) */
+}
+#task {
+    margin-top: 10px;
+    background-color: #121313;
+    width: 60px;
+    height: 60px;
+    transition: background-color 0.4s ease;
+}
+#task:hover {
+    background-color: #000000; /* Цвет при наведении (темнее) */
+}
+
+.rof {
+    transition: color 0.3s ease;
+}
+.tas {
+    transition: color 0.3s ease;
+}
+.re {
+    transition: color 0.3s ease;
+}

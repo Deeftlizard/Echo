@@ -76,8 +76,6 @@ body {
 .footer-buttons {
     display: flex; 
     width: 100%;
- /* Равномерно распределяем кнопки */
-    margin-bottom: 10px;
 }
 
 .container {
@@ -95,40 +93,6 @@ main {
 .farm-button:hover {
     background-color: #55b2ff;
     color: #fff;
-}
-
-#prof {
-    margin-top: 10px;
-    margin-right: 20px;
-    background-color: #121313;
-    width: 60px;
-    height: 60px;
-    transition: background-color 0.4s ease;
-}
-#prof:hover {
-    background-color: #000000; /* Цвет при наведении (темнее) */
-}
-
-#ref {
-    margin-top: 10px;
-    margin-left: 20px;
-    background-color: #121313;
-    width: 60px;
-    height: 60px;
-    transition: background-color 0.4s ease;
-}
-#ref:hover {
-    background-color: #000000; /* Цвет при наведении (темнее) */
-}
-#task {
-    margin-top: 10px;
-    background-color: #121313;
-    width: 60px;
-    height: 60px;
-    transition: background-color 0.4s ease;
-}
-#task:hover {
-    background-color: #000000; /* Цвет при наведении (темнее) */
 }
 
 .rof {
